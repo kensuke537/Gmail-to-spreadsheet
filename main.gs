@@ -21,5 +21,5 @@ function  addToSpreadsheet(date, froms,subject,body) {
   sheet.getRange(lastRow + 1, 1).setValue(formattedDate);
   sheet.getRange(lastRow + 1, 2).setValue(froms);
   sheet.getRange(lastRow + 1, 3).setValue(subject);
-  // sheet.getRange(lastRow + 1, 4).setValue(body);
+  sheet.getRange(lastRow + 1, 4).setValue(body);
 }
